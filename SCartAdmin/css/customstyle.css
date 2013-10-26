@@ -1,0 +1,76 @@
+/* 
+    Created on : 22 Oct 2013, 1:30:00 PM
+    Author     : Mashadi
+*/
+
+body{
+    font: 80% "Tahoma", sans-serif;
+    background-color: tomato;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#page{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 1000px;
+    min-height: 700px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#header{
+    display: inline;
+}
+#logo{
+    
+}
+#adminmenu{
+    float: left;
+}
+#footer{
+    text-align: center;
+}
+#messagebox{
+    position:fixed;
+    top:5px;
+    float: right;
+}
+
+.ui-menu { 
+    width: 250px; 
+}
+
+.demoHeaders {
+        margin-top: 1em;
+}
+#dialog-link {
+        padding: .4em 1em .4em 20px;
+        text-decoration: none;
+        position: relative;
+}
+#dialog-link span.ui-icon {
+        margin: 0 5px 0 0;
+        position: absolute;
+        left: .2em;
+        top: 50%;
+        margin-top: -8px;
+}
+#icons {
+        margin: 0;
+        padding: 0;
+}
+#icons li {
+        margin: 2px;
+        position: relative;
+        padding: 4px 0;
+        cursor: pointer;
+        float: left;
+        list-style: none;
+}
+#icons span.ui-icon {
+        float: left;
+        margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+        position: absolute;
+}

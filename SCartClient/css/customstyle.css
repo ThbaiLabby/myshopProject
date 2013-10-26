@@ -1,0 +1,130 @@
+/* 
+    Created on : 22 Oct 2013, 1:30:00 PM
+    Author     : Mashadi
+*/
+
+body{
+    font: 80% "Tahoma", sans-serif;
+    background-color: tomato;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#page{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 1000px;
+    min-height: 700px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#header{
+    display: inline;
+}
+#logo{
+    
+}
+#loginbox{
+    margin-left: 400px;
+    text-align: right;
+}
+#footer{
+    text-align: center;
+}
+#messagebox{
+    position:fixed;
+    top:5px;
+    float: right;
+}
+#categories{
+    width: 250px;
+    float: left;
+}
+#shop{
+    margin-left: 280px;
+}
+#userform{
+    float: left;
+    width: 300px;
+}
+#accordion{
+    margin-left: 310px;
+    min-height: 400px
+}
+.productstable{
+    width: 100%;
+    font-size: 20px;
+}
+.productstable td{
+    height: 100px;
+}
+.productstable img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.carttable{
+    width: 80%;
+    font-size: 16px;
+    margin-left: 200px;
+    text-align: left;
+    border-bottom: 3px #cd0a0a groove;
+}
+.carttable td, .carttable th{
+    height: 50px;
+    border-bottom: 1px #cd0a0a solid;
+}
+.carttable img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.ordertable{
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 2px #cd0a0a solid;
+}
+.ordertable td, .ordertable th{
+    height: 30px;
+    border-bottom: 1px #cd0a0a dotted;
+}
+.ui-menu { 
+    width: 250px; 
+}
+
+.demoHeaders {
+        margin-top: 1em;
+}
+#dialog-link {
+        padding: .4em 1em .4em 20px;
+        text-decoration: none;
+        position: relative;
+}
+#dialog-link span.ui-icon {
+        margin: 0 5px 0 0;
+        position: absolute;
+        left: .2em;
+        top: 50%;
+        margin-top: -8px;
+}
+#icons {
+        margin: 0;
+        padding: 0;
+}
+#icons li {
+        margin: 2px;
+        position: relative;
+        padding: 4px 0;
+        cursor: pointer;
+        float: left;
+        list-style: none;
+}
+#icons span.ui-icon {
+        float: left;
+        margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+        position: absolute;
+}
